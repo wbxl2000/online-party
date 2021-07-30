@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "douyu";
+  src: url("./douyuFont.otf");
+}
+
+@font-face {
+  font-family: "sourceHans_heiti";
+  src: url("./SourceHanSansSC-VF.otf");
+}
+
+@font-face {
+  font-family: "sourceHans_heiti_Regular";
+  src: url("./SourceHanSansHWSC-Regular.otf");
+}
+
+@font-face {
+  font-family: "HarmonyOS_Sans_Regular";
+  src: url("./HarmonyOS_Sans_Regular.ttf");
+}
+
+@font-face {
+  font-family: "HarmonyOS_Sans_Medium";
+  src: url("./HarmonyOS_Sans_Medium.ttf");
+}
+
+@font-face {
+  font-family: "HarmonyOS_Sans_Bold";
+  src: url("./HarmonyOS_Sans_Bold.ttf");
+}

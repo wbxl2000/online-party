@@ -1,0 +1,31 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "element-plus": "^1.0.2-beta.54",
+    "tim-js-sdk": "^2.12.1",
+    "tim-upload-plugin": "^1.0.3",
+    "tls-sig-api-v2": "^1.0.1",
+    "trtc-js-sdk": "^4.11.1",
+    "vue": "^3.0.5",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.1",
+    "prettier": "2.3.2",
+    "vite": "^2.4.2"
+  },
+  "lint-staged": {
+    "*.{js,css,md,vue}": "prettier --write"
+  }
+}
