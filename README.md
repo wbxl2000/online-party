@@ -59,3 +59,7 @@ RTC 1v1 音视频页面：
 此页面可以回顾本次 Party 所遇到过的所有的人，并且可在房间内面向全体聊天。
 
 ![ending-room](./docs/pics/ending-room.png)
+
+## How to development it
+
+在 `public/appConfig.js` 填入你自己的 AppID 和 密钥，`npm i` 安装依赖，然后根据 package.json 里的运行命令即可运行。
